@@ -1,0 +1,88 @@
+#!/system/bin/sh
+#hockeyfamily737 is a sex god
+#kanged by Duce
+#further kanged by viperboy for Sense 5 Port
+
+SVNDIR=/sdcard2/.sense5port
+TRUNKDIR=http://evo-4g-lte-sense5-port.googlecode.com/svn/trunk/
+ZIPNAME=EVO_4G_LTE_Sense_5_Port
+TIMESTAMP=`date +"%m_%d_%y@%I_%M_%p"`
+buildprop=/system/build.prop
+echo "Thank you for trying sense5!"
+echo "- from the LTE dev alliance!"
+echo "GO THANK hockeyfamily737 on xda for this script!"
+echo "#teamd3rp FTW!"
+echo "..."
+echo "This will build the latest Sense 5 Port"
+echo "from the latest commits in SVN."
+echo "..."
+echo "You need about 1.5gb of free space on"
+echo "your external sdcard."
+echo "Because this pulls the whole trunk,"
+echo "AND makes the ROM.zip, it's big. And,"
+echo "it will take a while, probably upwards"
+echo "of an hour. It's recommended to use WiFi"
+echo "or LTE."
+echo "..."
+echo "You can stop this script at any time"
+echo "by pressing volume - and c"
+echo "..."
+echo -n "Checking space requirements..."
+sleep 2
+if [ `busybox df | grep /ext_sd | awk '{ print $3 }'` -lt '1572864' ]; then
+	echo
+	echo "Not enough storage space!"
+	echo
+	echo "Please make sure you have atleast 1.5GB"
+	echo "free on your external sdcard"
+	echo
+	exit
+else
+	echo "Sufficient space available!"
+	echo
+fi
+echo -n "Connecting to SVN..."
+rm -rf $SVNDIR > /dev/null 2>&1
+mkdir -p $SVNDIR
+cd $SVNDIR
+clear
+echo
+wget -m -np --cut-dirs=2 -R index.html $TRUNKDIR
+clear
+echo "Download complete!"
+echo
+echo -n "Building .zip..."
+cd $SVNDIR/evo-4g-lte-sense5-port.googlecode.com
+zip -9 -q /sdcard2/$ZIPNAME\_$TIMESTAMP.zip -r META-INF boot.img system data kernel
+echo
+echo ".zip built sucessfully!"
+echo
+echo -n "Cleaning up..."
+cd /sdcard2
+rm -rf $SVNDIR > /dev/null 2>&1
+echo "$ZIPNAME\_$TIMESTAMP.zip located on the"
+echo "root of your external sdcard!"
+#Check if it exists
+if [ -f $buildprop ]
+then
+	#Get the svn version info from the svn repo
+	svnversion=$(wget $TRUNKDIR -q -O -)
+	#Now to get what we need
+	svnversion=${svnversion%%: /trunk</title>*}
+	svnversion=${svnversion##*Revision}
+	#Trim a little
+	svnversion="${svnversion##*( )}"
+	svnversion="${svnversion%%*( )}"
+	if [ $svnversion != "" ]
+	then
+		echo "SVN revision $svnversion"
+		echo "..."
+		svnversion="r$svnversion"
+		#Update the build.prop file contents with the current revision number
+		sed -i "s/ro.product.version=.*/ro.product.version=DEV ALLIANCE SENSE 5.0_$svnversion/g" "$buildprop"
+	fi
+fi
+echo
+echo "Happy flashing :D"
+echo "BOOM!"
+exit

@@ -1,0 +1,14 @@
+#!/system/bin/sh
+#created by -viperboy-
+#for PrimeTime
+#ported to EVO 4G LTE
+
+su -c busybox mount -o ro,remount /system
+
+mntstatus=$(mount | grep -i /system | cut -d " " -f 4 | cut -d , -f 1)
+case $mntstatus in
+	ro)	echo "Mount /system as RO success!"
+		;;
+	rw)	echo "Mount /system as RO FAILED!"
+		;;
+esac

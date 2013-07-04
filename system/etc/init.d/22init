@@ -1,0 +1,5 @@
+#!/system/bin/sh
+#created by -viperboy-
+
+#enable alogcat to read system logs
+pm grant org.jtb.alogcat android.permission.READ_LOGS

@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customization_form>
+  <category name="system">
+    <module name="locale">
+      <function>
+        <set name="single">
+          <item name="total_list">cs_DE;cs_GB;cs_IE;de_DE;de_GB;de_IE;en_DE;en_GB;en_IE;en_US;es_DE;es_GB;es_IE;fi_DE;fi_GB;fi_IE;fr_DE;fr_GB;fr_IE;hu_DE;hu_GB;hu_IE;it_DE;it_GB;it_IE;lv_DE;lv_GB;lv_IE;nl_DE;nl_GB;nl_IE;pl_DE;pl_GB;pl_IE;pt_DE;pt_GB;pt_IE;sk_DE;sk_GB;sk_IE;sv_DE;sv_GB;sv_IE;tr_DE;</item>
+          <item type="boolean" name="cs_DE">yes</item>
+          <item type="boolean" name="cs_GB">yes</item>
+          <item type="boolean" name="cs_IE">yes</item>
+          <item type="boolean" name="de_DE">yes</item>
+          <item type="boolean" name="de_GB">yes</item>
+          <item type="boolean" name="de_IE">yes</item>
+          <item type="boolean" name="en_DE">yes</item>
+          <item type="boolean" name="en_GB">yes</item>
+          <item type="boolean" name="en_IE">yes</item>
+          <item type="boolean" name="en_US">yes</item>
+          <item type="boolean" name="es_DE">yes</item>
+          <item type="boolean" name="es_GB">yes</item>
+          <item type="boolean" name="es_IE">yes</item>
+          <item type="boolean" name="fi_DE">yes</item>
+          <item type="boolean" name="fi_GB">yes</item>
+          <item type="boolean" name="fi_IE">yes</item>
+          <item type="boolean" name="fr_DE">yes</item>
+          <item type="boolean" name="fr_GB">yes</item>
+          <item type="boolean" name="fr_IE">yes</item>
+          <item type="boolean" name="hu_DE">yes</item>
+          <item type="boolean" name="hu_GB">yes</item>
+          <item type="boolean" name="hu_IE">yes</item>
+          <item type="boolean" name="it_DE">yes</item>
+          <item type="boolean" name="it_GB">yes</item>
+          <item type="boolean" name="it_IE">yes</item>
+          <item type="boolean" name="lv_DE">yes</item>
+          <item type="boolean" name="lv_GB">yes</item>
+          <item type="boolean" name="lv_IE">yes</item>
+          <item type="boolean" name="nl_DE">yes</item>
+          <item type="boolean" name="nl_GB">yes</item>
+          <item type="boolean" name="nl_IE">yes</item>
+          <item type="boolean" name="pl_DE">yes</item>
+          <item type="boolean" name="pl_GB">yes</item>
+          <item type="boolean" name="pl_IE">yes</item>
+          <item type="boolean" name="pt_DE">yes</item>
+          <item type="boolean" name="pt_GB">yes</item>
+          <item type="boolean" name="pt_IE">yes</item>
+          <item type="boolean" name="sk_DE">yes</item>
+          <item type="boolean" name="sk_GB">yes</item>
+          <item type="boolean" name="sk_IE">yes</item>
+          <item type="boolean" name="sv_DE">yes</item>
+          <item type="boolean" name="sv_GB">yes</item>
+          <item type="boolean" name="sv_IE">yes</item>
+          <item type="boolean" name="tr_DE">yes</item>
+        </set>
+      </function>
+    </module>
+    <module name="Settings">
+      <function name="screen_timeout">
+        <set name="plenty">
+          <item name="value1">-2</item>
+          <item name="value2">15000</item>
+          <item name="value3">30000</item>
+          <item name="value4">45000</item>
+          <item name="value5">60000</item>
+          <item name="value6">120000</item>
+          <item name="value7">600000</item>
+        </set>
+      </function>
+    </module>
+    <module name="InputMethod">
+      <function name="IME_language_set">
+        <set name="single">
+          <item type="boolean" name="English">yes</item>
+          <item type="boolean" name="German">yes</item>
+          <item type="boolean" name="France">yes</item>
+          <item type="boolean" name="Italian">yes</item>
+          <item type="boolean" name="Spanish">yes</item>
+          <item type="boolean" name="Russian">yes</item>
+          <item type="boolean" name="Czech">yes</item>
+          <item type="boolean" name="Danish">yes</item>
+          <item type="boolean" name="Swedish">yes</item>
+          <item type="boolean" name="Norwegian">yes</item>
+          <item type="boolean" name="Dutch">yes</item>
+          <item type="boolean" name="Polish">yes</item>
+          <item type="boolean" name="Portugal">yes</item>
+          <item type="boolean" name="Greek">yes</item>
+          <item type="boolean" name="Turkish">yes</item>
+          <item type="boolean" name="Finnish">yes</item>
+          <item type="boolean" name="Hungarian">yes</item>
+          <item type="boolean" name="Romanian">yes</item>
+          <item type="boolean" name="Slovak">yes</item>
+          <item type="boolean" name="Croatian">yes</item>
+          <item type="boolean" name="Slovenian">yes</item>
+          <item type="boolean" name="Serbian">yes</item>
+          <item type="boolean" name="Bulgarian">yes</item>
+          <item type="boolean" name="Estonian">yes</item>
+          <item type="boolean" name="Latvian">yes</item>
+          <item type="boolean" name="Lithuanian">yes</item>
+          <item type="boolean" name="Indonesian">yes</item>
+          <item type="boolean" name="Malay">yes</item>
+          <item type="boolean" name="Kazakh">yes</item>
+          <item type="boolean" name="Ukrainian">yes</item>
+          <item type="boolean" name="Hebrew">yes</item>
+          <item type="boolean" name="Arabic">yes</item>
+        </set>
+      </function>
+    </module>
+    <module name="deviceData">
+      <function>
+        <set name="single">
+          <item name="device_name">HTC Evo 4G LTE</item>
+        </set>
+      </function>
+    </module>
+    <module name="deviceData1">
+      <function>
+        <set name="single">
+          <item name="sw_number">NA</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="application">
+    <module name="Crash_Report">
+      <function name="setting">
+        <set name="single">
+          <item name="turn_off_report" type="boolean">yes</item>
+          <item name="turn_off_application_log" type="boolean">yes</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <BootConfiguration>
+    <BootAnimation animation="/system/customize/resource/bootanimation.zip" />
+  </BootConfiguration>
+  <ShutdownConfiguration>
+    <ShutdownAnimation image_png="/system/customize/resource/downanimation.zip" image="" fps="10" />
+  </ShutdownConfiguration>
+  <category name="SettingsProvider">
+    <module name="res">
+      <function name="values">
+        <set name="single">
+          <item name="def_screen_off_timeout">-2</item>
+          <item name="def_2g_on">2</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="Settings">
+    <module name="properties">
+      <function>
+        <set name="single">
+          <item name="market_name">Evo 4G LTE</item>
+        </set>
+      </function>
+    </module>
+    <module name="list">
+      <function name="regulatory_icon_list">
+        <set name="single">
+          <!--%%File%%-->
+          <item name="1">/system/customize/resource/rp_ce_0682_i.png</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="AutomotiveHome">
+    <module name="setting">
+      <function>
+        <set name="single">
+          <item name="default_Location">Google Maps Navigation</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="framework">
+    <module name="ShareVia">
+      <function name="settings">
+        <set name="single">
+          <item name="1">com.htc.notes</item>
+          <item name="2">com.htc.cloudstorage.skydrive</item>
+          <item name="3">com.dropbox.android</item>
+          <item name="4">com.htc.android.mail</item>
+          <item name="5">com.android.mms</item>
+          <item name="6">com.facebook.katana</item>
+          <item name="12">com.htc.csshare</item>
+        </set>
+      </function>
+    </module>
+  </category>
+</customization_form>
