@@ -1,0 +1,63 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<allApplication>
+	<customize_sort>
+		<item type="folder" display_order="14" display_hide="0" folder_title="Productivity" folder_id="14DC7AC9-DF53-4410-83F8-CF12163A6E5E" />
+		<item type="application" packageName="com.dropbox.android" className="com.dropbox.android.activity.DropboxBrowser" display_order="0" display_hide="0" container="14DC7AC9-DF53-4410-83F8-CF12163A6E5E" />
+		<item type="application" packageName="com.infraware.docmaster" className="com.htc.FilePicker.FilePickerPolarisOffice" display_order="1" display_hide="0" container="14DC7AC9-DF53-4410-83F8-CF12163A6E5E" />
+		<item type="application" packageName="com.htc.notes" className="com.htc.notes.collection.NoteCollectionActivity" display_order="2" display_hide="0" container="14DC7AC9-DF53-4410-83F8-CF12163A6E5E" />
+		<item type="application" packageName="com.htc.task" className="com.htc.task.TaskListViewActivity" display_order="3" display_hide="0" container="14DC7AC9-DF53-4410-83F8-CF12163A6E5E" />
+		<item type="application" packageName="com.htc.pdfviewer" className="com.htc.pdfviewer.ActPDFReader" display_order="4" display_hide="0" container="14DC7AC9-DF53-4410-83F8-CF12163A6E5E" />
+		<item type="application" packageName="com.inventec.dreye.htc" className="com.inventec.dreye.htc.DreEntryView" display_order="5" display_hide="0" container="14DC7AC9-DF53-4410-83F8-CF12163A6E5E" />
+		<item type="application" packageName="com.htc.android.mail" className="com.htc.android.mail.MultipleActivitiesMain" display_order="0" display_hide="0" />
+		<item type="application" packageName="com.twitter.android" className="com.twitter.android.StartActivity" display_order="8" display_hide="0" />
+		<item type="application" packageName="com.htc.stock" className="com.htc.stock.ui.HomeActivity" display_order="12" display_hide="0" />
+		<item type="application" packageName="com.facebook.katana" className="com.facebook.katana.LoginActivity" display_order="5" display_hide="0" />
+		<item type="application" packageName="com.htc.android.worldclock" className="com.htc.android.worldclock.WorldClockTabControl" display_order="11" display_hide="0" />
+		<item type="application" packageName="com.android.htccontacts" className="com.android.htccontacts.BrowseLayerCarouselActivity" display_order="2" display_hide="0" />
+		<item type="application" packageName="com.htc.videohub.ui" className="com.htc.videohub.ui.MainForwardingActivity" display_order="3" display_hide="0" />
+		<item type="application" packageName="com.zoodles.kidmode" className="com.zoodles.kidmode.activity.LauncherActivity" display_order="18" display_hide="0" />
+		<item type="application" packageName="com.htc.AutoMotive" className="com.htc.AutoMotive.carousel.MainActivity" display_order="10" display_hide="0" />
+		<item type="application" packageName="com.htc.family" className="com.htc.family.Launcher" display_order="17" display_hide="0" />
+		<item type="application" packageName="com.google.android.apps.maps" className="com.google.android.maps.MapsActivity" display_order="9" display_hide="0" />
+		<item type="application" packageName="com.htc.album" className="com.htc.album.AlbumMain.ActivityMainDropList" display_order="4" display_hide="0" />
+		<item type="folder" display_order="7" display_hide="0" folder_title="Google" folder_id="4D4BA110-171A-4c66-B32B-337A2A0D91F3" />
+		<item type="application" packageName="com.android.chrome" className="com.google.android.apps.chrome.Main" display_order="0" display_hide="0" container="4D4BA110-171A-4c66-B32B-337A2A0D91F3" />
+		<item type="application" packageName="com.google.android.gm" className="com.google.android.gm.ConversationListActivityGmail" display_order="1" display_hide="0" container="4D4BA110-171A-4c66-B32B-337A2A0D91F3" />
+		<item type="application" packageName="com.google.android.googlequicksearchbox" className="com.google.android.googlequicksearchbox.SearchActivity" display_order="2" display_hide="0" container="4D4BA110-171A-4c66-B32B-337A2A0D91F3" />
+		<item type="application" packageName="com.google.android.apps.plus" className="com.google.android.apps.plus.phone.HomeActivity" display_order="3" display_hide="0" container="4D4BA110-171A-4c66-B32B-337A2A0D91F3" />
+		<item type="application" packageName="com.google.android.talk" className="com.google.android.talk.SigningInActivity" display_order="4" display_hide="0" container="4D4BA110-171A-4c66-B32B-337A2A0D91F3" />
+		<item type="application" packageName="com.google.android.apps.plus" className="com.google.android.apps.plus.phone.ConversationListActivity" display_order="5" display_hide="0" container="4D4BA110-171A-4c66-B32B-337A2A0D91F3" />
+		<item type="application" packageName="com.google.android.apps.maps" className="com.google.android.maps.driveabout.app.DestinationActivity" display_order="6" display_hide="0" container="4D4BA110-171A-4c66-B32B-337A2A0D91F3" />
+		<item type="application" packageName="com.google.android.apps.maps" className="com.google.android.maps.PlacesActivity" display_order="7" display_hide="0" container="4D4BA110-171A-4c66-B32B-337A2A0D91F3" />
+		<item type="application" packageName="com.google.android.apps.genie.geniewidget" className="com.google.android.apps.genie.geniewidget.activities.NewsActivity" display_order="8" display_hide="0" container="4D4BA110-171A-4c66-B32B-337A2A0D91F3" />
+		<item type="application" packageName="com.google.android.googlequicksearchbox" className="com.google.android.googlequicksearchbox.VoiceSearchActivity" display_order="9" display_hide="0" container="4D4BA110-171A-4c66-B32B-337A2A0D91F3" />
+		<item type="application" packageName="com.htc.showme" className="com.htc.showme.ui.MainPage" display_order="19" display_hide="0" />
+		<item type="application" packageName="com.htc.calendar" className="com.htc.calendar.CalendarActivityMain" display_order="1" display_hide="0" />
+		<item type="application" packageName="com.android.vending" className="com.android.vending.AssetBrowserActivity" display_order="13" display_hide="0" />
+		<item type="application" packageName="com.android.settings" className="com.android.settings.Settings" display_order="16" display_hide="0" />
+		<item type="folder" display_order="6" display_hide="0" folder_title="Media" folder_id="D51519CF-24BF-4985-94ED-278242E189A2" />
+		<item type="application" packageName="com.sdgtl.watch" className="com.sdgtl.watch.Main" display_order="0" display_hide="0" container="D51519CF-24BF-4985-94ED-278242E189A2" />
+		<item type="application" packageName="com.google.android.youtube" className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" display_order="1" display_hide="0" container="D51519CF-24BF-4985-94ED-278242E189A2" />
+		<item type="application" packageName="com.google.android.videos" className="com.google.android.youtube.videos.EntryPoint" display_order="2" display_hide="0" container="D51519CF-24BF-4985-94ED-278242E189A2" />
+		<item type="application" packageName="com.htc.music" className="com.htc.music.browserlayer.MusicBrowserTabActivity" display_order="3" display_hide="0" container="D51519CF-24BF-4985-94ED-278242E189A2" />
+		<item type="application" packageName="com.google.android.music" className="com.android.music.activitymanagement.TopLevelActivity" display_order="4" display_hide="0" container="D51519CF-24BF-4985-94ED-278242E189A2" />
+		<item type="application" packageName="tunein.player" className="tunein.player.Activity" display_order="5" display_hide="0" container="D51519CF-24BF-4985-94ED-278242E189A2" />
+		<item type="application" packageName="com.htc.fm" className="com.htc.fm.ap.activity.FMRadioMain" display_order="6" display_hide="0" container="D51519CF-24BF-4985-94ED-278242E189A2" />
+		<item type="application" packageName="com.google.android.apps.books" className="com.google.android.apps.books.app.BooksActivity" display_order="7" display_hide="0" container="D51519CF-24BF-4985-94ED-278242E189A2" />
+		<item type="application" packageName="com.melodis.midomiMusicIdentifier.freemium" className="com.soundhound.android.appcommon.activity.SoundHound" display_order="8" display_hide="0" container="D51519CF-24BF-4985-94ED-278242E189A2" />
+		<item type="application" packageName="com.google.android.apps.magazines" className="com.google.apps.dots.android.app.activity.CurrentsStartActivity" display_order="9" display_hide="0" container="D51519CF-24BF-4985-94ED-278242E189A2" />
+		<item type="application" packageName="uk.co.sevendigital.android" className="uk.co.sevendigital.android.library.ui.SDIStartActivity" display_order="10" display_hide="0" container="D51519CF-24BF-4985-94ED-278242E189A2" />
+		<item type="application" packageName="com.skysoft.kkbox.android" className="com.skysoft.kkbox.android.HomeActivity" display_order="11" display_hide="0" container="D51519CF-24BF-4985-94ED-278242E189A2" />
+		<item type="application" packageName="com.kkbox.alc.android" className="com.kkbox.alc.android.tab.MainTab" display_order="12" display_hide="0" container="D51519CF-24BF-4985-94ED-278242E189A2" />
+		<item type="folder" display_order="15" display_hide="0" folder_title="Tools" folder_id="3C9C79AE-55BF-4f98-94E5-C795F885B3EC" />
+		<item type="application" packageName="com.android.calculator2" className="com.android.calculator2.Calculator" display_order="0" display_hide="0" container="3C9C79AE-55BF-4f98-94E5-C795F885B3EC" />
+		<item type="application" packageName="com.htc.flashlight" className="com.htc.flashlight.FlashlightActivity" display_order="1" display_hide="0" container="3C9C79AE-55BF-4f98-94E5-C795F885B3EC" />
+		<item type="application" packageName="com.htc.Weather" className="com.htc.Weather.WeatherActivity" display_order="2" display_hide="0" container="3C9C79AE-55BF-4f98-94E5-C795F885B3EC" />
+		<item type="application" packageName="com.android.providers.downloads.ui" className="com.android.providers.downloads.ui.DownloadList" display_order="3" display_hide="0" container="3C9C79AE-55BF-4f98-94E5-C795F885B3EC" />
+		<item type="application" packageName="com.htc.android.htcsetupwizard" className="com.htc.android.htcsetupwizard.SetupWizardActivity" display_order="4" display_hide="0" container="3C9C79AE-55BF-4f98-94E5-C795F885B3EC" />
+		<item type="application" packageName="com.htc.soundrecorder" className="com.htc.soundrecorder.SoundRecorderBG" display_order="5" display_hide="0" container="3C9C79AE-55BF-4f98-94E5-C795F885B3EC" />
+		<item type="application" packageName="com.zoodles.kidmode" className="com.zoodles.kidmode.activity.parent.ParentDashboardLauncherActivity" display_order="6" display_hide="0" container="3C9C79AE-55BF-4f98-94E5-C795F885B3EC" />
+		<item type="application" packageName="com.adobe.flashplayer" className="com.adobe.flashplayer.SettingsManager" display_order="7" display_hide="0" container="3C9C79AE-55BF-4f98-94E5-C795F885B3EC" />
+		<item type="application" packageName="com.lmi.htc.rescuestart" className="com.lmi.htc.rescuestart.RescueStart" display_order="8" display_hide="0" container="3C9C79AE-55BF-4f98-94E5-C795F885B3EC" />
+	</customize_sort>
+</allApplication>

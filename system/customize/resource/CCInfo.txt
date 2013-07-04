@@ -1,0 +1,8 @@
+﻿Project: M7_WL_JB_50_SPCS
+SKU: Sprint Chameleon ROM
+ROM Build ID: 499013
+Build ID: 499030; SKU: Sprint WWE Boost; CID: BOOST000; MNS: 
+Build ID: 499031; SKU: Sprint WWE; CID: SPRINT00; MNS: 
+Build ID: 499032; SKU: Sprint WWE VM; CID: VM000000; MNS: 
+Build ID: 499015; SKU: Sprint Chameleon ROM default; CID: default; MNS: default
+Datetime: 2013/03/15 21:15:21

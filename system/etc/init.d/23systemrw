@@ -1,0 +1,6 @@
+#!/system/bin/sh
+#created by -viperboy-
+#for Sprint HTC One
+#credit flar2 for wp_mod.ko
+
+insmod /system/lib/modules/wp_mod.ko

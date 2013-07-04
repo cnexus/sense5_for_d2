@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customization_form>
+  <category name="system">
+    <module name="locale">
+      <function>
+        <set name="single">
+          <item name="total_list">ar_US;bg_US;cs_US;da_US;de_US;el_US;en_US;es_US;et_US;fa_US;fi_US;fr_US;hr_US;hu_US;in_US;it_US;iw_US;ja_US;kk_US;ko_US;lt_US;lv_US;nb_US;nl_US;pl_US;pt_US;ro_US;ru_US;sk_US;sl_US;sr_US;sv_US;th_US;tr_US;uk_US;vi_US;zh_CN;zh_TW;</item>
+          <item type="boolean" name="ar_US">yes</item>
+          <item type="boolean" name="bg_US">yes</item>
+          <item type="boolean" name="cs_US">yes</item>
+          <item type="boolean" name="da_US">yes</item>
+          <item type="boolean" name="de_US">yes</item>
+          <item type="boolean" name="el_US">yes</item>
+          <item type="boolean" name="en_US">yes</item>
+          <item type="boolean" name="es_US">yes</item>
+          <item type="boolean" name="et_US">yes</item>
+          <item type="boolean" name="fa_US">yes</item>
+          <item type="boolean" name="fi_US">yes</item>
+          <item type="boolean" name="fr_US">yes</item>
+          <item type="boolean" name="hr_US">yes</item>
+          <item type="boolean" name="hu_US">yes</item>
+          <item type="boolean" name="in_US">yes</item>
+          <item type="boolean" name="it_US">yes</item>
+          <item type="boolean" name="iw_US">yes</item>
+          <item type="boolean" name="ja_US">yes</item>
+          <item type="boolean" name="kk_US">yes</item>
+          <item type="boolean" name="ko_US">yes</item>
+          <item type="boolean" name="lt_US">yes</item>
+          <item type="boolean" name="lv_US">yes</item>
+          <item type="boolean" name="nb_US">yes</item>
+          <item type="boolean" name="nl_US">yes</item>
+          <item type="boolean" name="pl_US">yes</item>
+          <item type="boolean" name="pt_US">yes</item>
+          <item type="boolean" name="ro_US">yes</item>
+          <item type="boolean" name="ru_US">yes</item>
+          <item type="boolean" name="sk_US">yes</item>
+          <item type="boolean" name="sl_US">yes</item>
+          <item type="boolean" name="sr_US">yes</item>
+          <item type="boolean" name="sv_US">yes</item>
+          <item type="boolean" name="th_US">yes</item>
+          <item type="boolean" name="tr_US">yes</item>
+          <item type="boolean" name="uk_US">yes</item>
+          <item type="boolean" name="vi_US">yes</item>
+          <item type="boolean" name="zh_CN">yes</item>
+          <item type="boolean" name="zh_TW">yes</item>
+        </set>
+      </function>
+    </module>
+    <module name="Settings">
+      <function name="screen_timeout">
+        <set name="plenty">
+          <item name="value1">-2</item>
+          <item name="value2">15000</item>
+          <item name="value3">30000</item>
+          <item name="value4">45000</item>
+          <item name="value5">60000</item>
+          <item name="value6">120000</item>
+          <item name="value7">600000</item>
+        </set>
+      </function>
+      <function name="customized_value">
+        <set name="single">
+          <item name="has_netsharing">false</item>
+        </set>
+      </function>
+    </module>
+    <module name="DataUsage">
+      <function name="settings">
+        <set name="single">
+          <item name="alertEnable">false</item>
+          <item name="alertUsage">52428800</item>
+        </set>
+      </function>
+    </module>
+    <module name="InputMethod">
+      <function name="IME_language_set">
+        <set name="single">
+          <item type="boolean" name="English">yes</item>
+          <item type="boolean" name="German">yes</item>
+          <item type="boolean" name="France">yes</item>
+          <item type="boolean" name="Italian">yes</item>
+          <item type="boolean" name="Spanish">yes</item>
+          <item type="boolean" name="Russian">yes</item>
+          <item type="boolean" name="Czech">yes</item>
+          <item type="boolean" name="Danish">yes</item>
+          <item type="boolean" name="Swedish">yes</item>
+          <item type="boolean" name="Norwegian">yes</item>
+          <item type="boolean" name="Dutch">yes</item>
+          <item type="boolean" name="Polish">yes</item>
+          <item type="boolean" name="Portugal">yes</item>
+          <item type="boolean" name="Greek">yes</item>
+          <item type="boolean" name="Turkish">yes</item>
+          <item type="boolean" name="Finnish">yes</item>
+          <item type="boolean" name="Hungarian">yes</item>
+          <item type="boolean" name="Romanian">yes</item>
+          <item type="boolean" name="Slovak">yes</item>
+          <item type="boolean" name="Croatian">yes</item>
+          <item type="boolean" name="Slovenian">yes</item>
+          <item type="boolean" name="Serbian">yes</item>
+          <item type="boolean" name="Bulgarian">yes</item>
+          <item type="boolean" name="Estonian">yes</item>
+          <item type="boolean" name="Latvian">yes</item>
+          <item type="boolean" name="Lithuanian">yes</item>
+          <item type="boolean" name="Indonesian">yes</item>
+          <item type="boolean" name="Malay">yes</item>
+          <item type="boolean" name="Kazakh">yes</item>
+          <item type="boolean" name="Ukrainian">yes</item>
+          <item type="boolean" name="Hebrew">yes</item>
+          <item type="boolean" name="Arabic">yes</item>
+        </set>
+      </function>
+      <function name="IME_sip_set">
+        <set name="single">
+          <item name="total_list">Handwriting;ZuhYin;CangJie;PinYin;Stroke;</item>
+          <item type="boolean" name="Handwriting">yes</item>
+          <item type="boolean" name="ZuhYin">yes</item>
+          <item type="boolean" name="CangJie">yes</item>
+          <item type="boolean" name="PinYin">yes</item>
+          <item type="boolean" name="Stroke">yes</item>
+        </set>
+      </function>
+    </module>
+    <module name="deviceData">
+      <function>
+        <set name="single">
+          <item name="device_name">HTC PN072</item>
+        </set>
+      </function>
+    </module>
+    <module name="deviceData1">
+      <function>
+        <set name="single">
+          <item name="sw_number">NA</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="application">
+    <module name="Crash_Report">
+      <function name="setting">
+        <set name="single">
+          <item name="turn_off_report" type="boolean">no</item>
+          <item name="turn_off_application_log" type="boolean">yes</item>
+          <item name="all_data_connection_preference" type="boolean">no</item>
+          <item name="only_wifi_option" type="boolean">yes</item>
+        </set>
+      </function>
+    </module>
+    <module name="FOTA">
+      <function name="settings">
+        <set name="single">
+          <item name="Enable_FOTA_UI" type="boolean">yes</item>
+          <item name="Enable_Manual_Check" type="boolean">yes</item>
+        </set>
+      </function>
+    </module>
+    <module name="Wifihotspot">
+      <function name="usermanagement">
+        <set name="plenty" max="15">
+          <item name="max_connection">1</item>
+          <item name="connection_array">1</item>
+        </set>
+      </function>
+    </module>
+    <module name="Drm_Provider">
+      <function name="Drm_Support">
+        <set name="single">
+          <item name="CD">no</item>
+        </set>
+      </function>
+    </module>
+    <module name="Phone">
+      <function name="dialer">
+        <set name="single">
+          <item name="brought_number_savable">false</item>
+        </set>
+      </function>
+    </module>
+    <module name="social_network">
+      <function name="settings">
+        <set name="single">
+          <item name="facebook_sync_interval">86400</item>
+          <item name="flickr_sync_interval">86400</item>
+          <item name="twitter_sync_interval">86400</item>
+          <item name="plurk_sync_interval">86400</item>
+        </set>
+      </function>
+    </module>
+    <module name="HotspotName">
+      <function>
+        <set name="single">
+          <item name="additional_string">mac_address</item>
+          <item name="additional_count">3</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <BootConfiguration>
+    <BootAnimation animation="/system/customize/resource/hTC_bootup_one.zip" audio="/system/customize/resource/HTC_Sense5_Boot.mp3" />
+  </BootConfiguration>
+  <category name="SettingsProvider">
+    <module name="res">
+      <function name="values">
+        <set name="single">
+          <item name="def_nfc_on">true</item>
+          <item name="def_screen_off_timeout">-2</item>
+          <item name="def_location_gps_providers_allowed">false</item>
+          <item name="def_fastboot_allowed">0</item>
+          <item name="def_data_roaming_sound_allowed">enabled</item>
+          <item name="def_htc_mobile_network_on">true</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <ShutdownConfiguration>
+    <ShutdownAnimation image_png="/system/customize/resource/hTC_downanimation.zip" image="" fps="10" />
+  </ShutdownConfiguration>
+  <category name="Settings">
+    <module name="properties">
+      <function>
+        <set name="single">
+          <item name="market_name">HTCONE</item>
+        </set>
+      </function>
+    </module>
+    <module name="list">
+      <function name="unsupport_disable_button_list">
+        <set name="single">
+          <item name="1">com.coremobility.app.vnotes</item>
+          <item name="2">com.sprint.zone</item>
+          <item name="3">com.sprint.w.installer</item>
+          <item name="4">com.locationlabs.v3client</item>
+          <item name="5">com.android.providers.media</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="framework">
+    <module name="ShareVia">
+      <function name="settings">
+        <set name="single">
+          <item name="1">com.htc.notes</item>
+          <item name="2">com.htc.cloudstorage.skydrive</item>
+          <item name="3">com.dropbox.android</item>
+          <item name="4">com.htc.android.mail</item>
+          <item name="5">com.android.mms</item>
+          <item name="6">com.facebook.katana</item>
+          <item name="12">com.htc.csshare</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="HTCCamera">
+    <module name="properties">
+      <function>
+        <set name="single">
+          <item name="mms_recording_limit">120</item>
+          <item name="enable_geo_tag_default">false</item>
+        </set>
+      </function>
+    </module>
+  </category>
+</customization_form>
