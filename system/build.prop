@@ -62,19 +62,20 @@ ro.build.type=user
 ro.build.user=
 ro.build.host=abm009
 ro.build.tags=release-keys
-ro.product.model=M7WLS
-ro.product.brand=htc
-ro.product.name=m7wls
-ro.product.device=m7wls
-ro.product.board=
+ro.product.model=SPH-L710
+ro.product.brand=samsung
+ro.product.name=d2spr
+ro.product.device=d2spr
+ro.product.board=MSM8960
 ro.product.cpu.abi=armeabi-v7a
 ro.product.cpu.abi2=armeabi
-ro.product.manufacturer=HTC
-ro.product.locale.language=xxhdpi
+ro.product.manufacturer=samsung
+ro.product.locale.language=en
+ro.product.locale.region=US
 ro.wifi.channels=
 ro.board.platform=msm8960
 # ro.build.product is obsolete; use ro.product.device
-ro.build.product=m7wls
+ro.build.product=d2spr
 ro.build.description=1.29.651.10 CL166937 release-keys
 ro.build.description=1.29.651.10 CL166937 release-keys
 ro.build.changelist=166937
@@ -87,7 +88,7 @@ ro.build.sense.version=5.0
 # Do not try to parse ro.build.description or .fingerprint
 ro.build.description=1.29.651.10 CL166937 release-keys
 ro.build.fingerprint=htc/m7wls/m7wls:4.1.2/JZO54K/166937.10:user/release-keys
-ro.build.characteristics=nosdcard
+ro.build.characteristics=default
 keyguard.no_require_sim=1
 # end build properties
 #
@@ -121,8 +122,8 @@ ro.sf.lcd_density=480
 debug.mdpcomp.maxlayer=3
 debug.egl.buffcount=4
 
-dalvik.vm.heapsize=384m
-dalvik.vm.heapgrowthlimit=192m
+dalvik.vm.heapsize=256m
+dalvik.vm.heapgrowthlimit=64m
 dev.pm.dyn_samplingrate=1
 
 #
@@ -218,6 +219,7 @@ ro.telephony.default_network=8
 #Simulate sdcard on /data/media
 #
 persist.fuse_sdcard=true
+ro.emmc.sdcard.partition=17
 
 # M7 Hardware Info
 ro.product.bluetooth=4.0
