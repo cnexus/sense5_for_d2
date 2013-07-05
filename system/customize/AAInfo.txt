@@ -1,0 +1,6 @@
+TaskID : 314761
+Project : DLXB1_U_JB_50_S
+SKU : hTC Asia TW[709]
+ROM Ver : 2.02.709.1
+Customization Id : 505008
+RCMS Id : 6

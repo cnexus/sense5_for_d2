@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<map>
+<profiles>
+    <COLOR name="BLK00">
+        <item name="46692">46692_B.xml</item>
+        <item name="46697">46697_B.xml</item>
+        <item name="">BLK00.xml</item>
+    </COLOR>
+    <COLOR name="RED00">
+        <item name="46692">46692_R.xml</item>
+        <item name="46697">46697_R.xml</item>
+        <item name="">RED00.xml</item>
+    </COLOR>
+    <COLOR name="WHT00">
+        <item name="46692">46692_W.xml</item>
+        <item name="46697">46697_W.xml</item>
+        <item name="">WHT00.xml</item>
+    </COLOR>
+</profiles>
+</map>

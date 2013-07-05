@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customization_form>
+  <category name="system">
+    <module name="locale">
+      <function>
+        <set name="single">
+          <item name="total_list">zh_TW;zh_CN;en_TW;en_US;en_GB;ja_JP;ko_KR;in_ID;th_TH;vi_VN;cs_CZ;da_DK;de_DE;es_ES;fr_FR;it_IT;nl_NL;nb_NO;pl_PL;pt_PT;fi_FI;sv_SE;tr_TR;ru_RU;el_GR;</item>
+          <item type="boolean" name="zh_TW">yes</item>
+          <item type="boolean" name="zh_CN">yes</item>
+          <item type="boolean" name="en_TW">yes</item>
+          <item type="boolean" name="en_US">yes</item>
+          <item type="boolean" name="en_GB">yes</item>
+          <item type="boolean" name="ja_JP">yes</item>
+          <item type="boolean" name="ko_KR">yes</item>
+          <item type="boolean" name="in_ID">yes</item>
+          <item type="boolean" name="th_TH">yes</item>
+          <item type="boolean" name="vi_VN">yes</item>
+          <item type="boolean" name="cs_CZ">yes</item>
+          <item type="boolean" name="da_DK">yes</item>
+          <item type="boolean" name="de_DE">yes</item>
+          <item type="boolean" name="es_ES">yes</item>
+          <item type="boolean" name="fr_FR">yes</item>
+          <item type="boolean" name="it_IT">yes</item>
+          <item type="boolean" name="nl_NL">yes</item>
+          <item type="boolean" name="nb_NO">yes</item>
+          <item type="boolean" name="pl_PL">yes</item>
+          <item type="boolean" name="pt_PT">yes</item>
+          <item type="boolean" name="fi_FI">yes</item>
+          <item type="boolean" name="sv_SE">yes</item>
+          <item type="boolean" name="tr_TR">yes</item>
+          <item type="boolean" name="ru_RU">yes</item>
+          <item type="boolean" name="el_GR">yes</item>
+        </set>
+      </function>
+    </module>
+    <module name="Settings">
+      <function name="screen_timeout">
+        <set name="plenty">
+          <item name="value1">-2</item>
+          <item name="value2">15000</item>
+          <item name="value3">30000</item>
+          <item name="value4">45000</item>
+          <item name="value5">60000</item>
+          <item name="value6">120000</item>
+          <item name="value7">600000</item>
+          <item name="value8">-1</item>
+        </set>
+      </function>
+    </module>
+    <module name="InputMethod">
+      <function name="IME_sip_set">
+        <set name="single">
+          <item name="total_list">Handwriting;ZuhYin;CangJie;PinYin;Stroke;</item>
+          <item type="boolean" name="Handwriting">yes</item>
+          <item type="boolean" name="ZuhYin">yes</item>
+          <item type="boolean" name="CangJie">yes</item>
+          <item type="boolean" name="PinYin">yes</item>
+          <item type="boolean" name="Stroke">yes</item>
+        </set>
+      </function>
+    </module>
+    <module name="deviceData">
+      <function>
+        <set name="single">
+          <item name="device_name">HTC Butterfly</item>
+        </set>
+      </function>
+    </module>
+    <module name="deviceData1">
+      <function>
+        <set name="single">
+          <item name="sw_number">NA</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="application">
+    <module name="Crash_Report">
+      <function name="setting">
+        <set name="single">
+          <item name="turn_off_report" type="boolean">no</item>
+          <item name="turn_off_application_log" type="boolean">yes</item>
+        </set>
+      </function>
+    </module>
+    <module name="Laputa">
+      <function name="footprint_preset">
+        <set name="plenty" max="13">
+          <item name="name">國立傳統藝術中心</item>
+          <item name="create_date">1239629156966</item>
+          <item name="category">favorite</item>
+          <item name="latitude">24691027</item>
+          <item name="longitude">121826472</item>
+          <item name="addr">宜蘭縣五結鄉季新村五濱路二段201號</item>
+          <item name="phone">(03)970-5815</item>
+          <item name="comment">帶你進入時光隧道，感受傳統表演藝術的價值與意涵</item>
+          <item name="pic_filename">/system/customize/resource/01.jpg</item>
+        </set>
+        <set name="plenty" max="13">
+          <item name="name">平溪天燈</item>
+          <item name="create_date">1239629156965</item>
+          <item name="category">favorite</item>
+          <item name="latitude">25023861</item>
+          <item name="longitude">121723722</item>
+          <item name="addr">台北縣平溪鄉菁桐街115號</item>
+          <item name="phone">(02)24951458</item>
+          <item name="comment">寫下新年願望，祈求賜福給每個我關心的家人</item>
+          <item name="pic_filename">/system/customize/resource/02.jpg</item>
+        </set>
+        <set name="plenty" max="13">
+          <item name="name">新中橫公路-夫妻樹</item>
+          <item name="create_date">1239629156964</item>
+          <item name="category">favorite</item>
+          <item name="latitude">23509916</item>
+          <item name="longitude">120891388</item>
+          <item name="addr">台灣南投縣信義鄉玉山路</item>
+          <item name="phone">(049)2702200</item>
+          <item name="comment">紀念堅貞的愛情，直到永遠</item>
+          <item name="pic_filename">/system/customize/resource/03.jpg</item>
+        </set>
+        <set name="plenty" max="13">
+          <item name="name">東北角海岸</item>
+          <item name="create_date">1239629156963</item>
+          <item name="category">favorite</item>
+          <item name="latitude">24975861</item>
+          <item name="longitude">121925861</item>
+          <item name="addr">北縣貢寮鄉福隆村</item>
+          <item name="phone">(02)2499-1115</item>
+          <item name="comment">美麗的海岸風光盡收眼底，讓人流連忘返</item>
+          <item name="pic_filename">/system/customize/resource/04.jpg</item>
+        </set>
+      </function>
+    </module>
+    <module name="Phone">
+      <function name="dialer">
+        <set name="single">
+          <item name="enable_pinyin">true</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <BootConfiguration>
+    <BootAnimation animation="/system/customize/resource/hTC_bootup.zip" audio="/system/customize/resource/HTC_Sense5_Boot.mp3" />
+  </BootConfiguration>
+  <ShutdownConfiguration>
+    <ShutdownAnimation image_png="/system/customize/resource/hTC_downanimation.zip" image="" fps="10" />
+  </ShutdownConfiguration>
+  <category name="SettingsProvider">
+    <module name="res">
+      <function name="values">
+        <set name="single">
+          <item name="def_screen_off_timeout">-2</item>
+          <item name="def_install_non_market_apps">0</item>
+          <item name="def_2g_on">2</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="Settings">
+    <module name="properties">
+      <function>
+        <set name="single">
+          <item name="market_name">HTC Butterfly</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="AutomotiveHome">
+    <module name="setting">
+      <function>
+        <set name="single">
+          <item name="default_Location">HTC Locations</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="framework">
+    <module name="ShareVia">
+      <function name="settings">
+        <set name="single">
+          <item name="1">com.htc.notes</item>
+          <item name="2">com.htc.cloudstorage.skydrive</item>
+          <item name="3">com.dropbox.android</item>
+          <item name="4">com.htc.android.mail</item>
+          <item name="5">com.android.mms</item>
+          <item name="6">com.facebook.katana</item>
+          <item name="12">com.htc.csshare</item>
+        </set>
+      </function>
+    </module>
+  </category>
+</customization_form>
