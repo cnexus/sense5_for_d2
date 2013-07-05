@@ -1,11 +1,8 @@
-Sense 5 for d2 devices
+Sense 5 based on Sprint HTC One, HTC Butterfly, and GSM HTC One
 
-Based on several devices
+cm10.1-m7 -> GSM HTC One 4.2.2
 
-cm10 -> Sprint HTC One
 
-cm10.1-dlx -> HTC Butterfly
+Build #: 2.24.709.1
 
-cm10.1-m7 -> HTC One
-
-cm10.1-m7wls -> Sprint HTC One
+Thanks to @tyler1234567 for providing the odexed stock rom.
