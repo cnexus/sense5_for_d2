@@ -1,2 +1,6 @@
 system/app/HtcSpeak_HFM.apk
 system/app/HtcSpeakNGF.apk
+!boot.img
+!META-ING/
+!system/
+!data/
