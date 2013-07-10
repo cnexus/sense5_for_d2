@@ -1,7 +1,6 @@
 #!/sbin/sh
 
-busybox chmod 666 /system/bin/brcm_poke_helper \
-/system/bin/geomagneticd \
+busybox chmod 666 /system/bin/geomagneticd \
 /system/bin/usbhub \
 /system/bin/bcm4334.hcd \
 /system/bin/thermald \
@@ -15,7 +14,6 @@ busybox chmod 666 /system/bin/brcm_poke_helper \
 /system/bin/qmiproxy \
 /system/bin/quipc_igsn \
 /system/bin/wiperiface_v02 \
-/system/bin/macloader \
 /system/bin/netmgrd \
 /system/bin/rmt_storage \
 /system/bin/bcm4334_murata.hcd \
@@ -26,19 +24,6 @@ busybox chmod 666 /system/bin/brcm_poke_helper \
 /system/bin/ds_fmc_appd \
 /system/bin/qmuxd \
 /system/bin/orientationd \
-/system/etc/wifi/bcmdhd_apsta.bin_b1 \
-/system/etc/wifi/bcmdhd_sta.bin_b2 \
-/system/etc/wifi/nvram_net.txt \
-/system/etc/wifi/bcmdhd_p2p.bin_b1 \
-/system/etc/wifi/bcmdhd_mfg.bin_b2 \
-/system/etc/wifi/nvram_net.txt_murata \
-/system/etc/wifi/bcmdhd_sta.bin_b1 \
-/system/etc/wifi/bcmdhd_p2p.bin_b2 \
-/system/etc/wifi/nvram_mfg.txt_murata \
-/system/etc/wifi/wpa_supplicant.conf \
-/system/etc/wifi/bcmdhd_apsta.bin_b2 \
-/system/etc/wifi/bcmdhd_mfg.bin_b1 \
-/system/etc/wifi/nvram_mfg.txt \
 /system/etc/thermald.conf_F \
 /system/etc/thermald.conf \
 /system/etc/thermald.conf_S \

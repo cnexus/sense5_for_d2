@@ -66,7 +66,10 @@ case "$target" in
 esac
 
 #wifi fix
-insmod /system/lib/modules/prima_wlan.ko
+#insmod /system/lib/modules/prima_wlan.ko
+
+#wifi fix for s3
+insmod /system/lib/modules/dhd.ko "firmware_path=/system/etc/wifi/bcmdhd_apsta.bin nvram_path=/system/etc/wifi/nvram_net.txt"
 
 emmc_boot=`getprop ro.emmc`
 #case "$emmc_boot"
